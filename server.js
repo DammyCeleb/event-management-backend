@@ -14,7 +14,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000','https://event-management-system-seven-sage.vercel.app/'],
+  origin: ['https://event-management-system-seven-sage.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
